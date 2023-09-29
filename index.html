@@ -13,7 +13,7 @@
 <body>
 <!-- navbar starts -->
 <header>
-        <a href="/" class="logo"><img src="./logo.png" alt="">Sharan</a>
+        <a href="#" class="logo"><img src="./logo.png" alt="">Sharan</a>
         <input type="checkbox" id='check'></input>
         <label for="check"><i id="menu" class="fas fa-bars"></i></label>
         <nav class="navbar">
@@ -21,10 +21,7 @@
             <li><a class="active" href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Experience</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
 </header>
@@ -34,7 +31,7 @@
 
     <div class="content">
     <h2>Hi There,<br/> I'm Sharan <span>Gyawali</span></h2>
-    <p>i am into <span class="typing-text"></span></p>
+    <!-- <p>i am into <span class="typing-text"></span></p> -->
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
@@ -48,15 +45,15 @@
       </div>
     </div>
 <div class="image">
-    <img draggable="false" class="tilt" src="./avatar1.jpg" alt="">
+    <img draggable="false" class="tilt" src="./profile1.jpg" alt="">
 </div>
 </section>
 <!-- About section -->
-<section class="about" id="about">
+<section style="margin-bottom: -10vh;" class="about" id="about">
   <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
   <div class="row">
   <div class="image">
-      <img draggable="false" class="tilt" src="./avatar2.jpg" alt="">
+      <img draggable="false" class="tilt" src="./profile2.jpg" alt="">
   </div>
   <div class="content">
       <h3>I'm Sharan</h3>
@@ -70,8 +67,11 @@
       
       <div class="box-container">
           <div class="box">
-            <p><span> email : </span>sharangyawali@gmail.com</p>
-            <p><span> place : </span> Kathmandu, Nepal</p>
+            <p><span> email : </span>sharangyawali103@gmail.com</p>
+            <p style="margin-bottom: 12px;"><span> place : </span> Kathmandu, Nepal</p>
+            <a href="./SG.pdf" class="download-button" download>
+              <i class="fas fa-download button-icon"></i> Download CV
+            </a>
           </div>
       </div>
 
@@ -81,18 +81,56 @@
 <!-- Skill Section -->
 <section class="skills" id="skills">
   <h2 class="heading"><i class="fas fa-laptop-code"></i> Skills & <span>Abilities</span></h2>
-  <div class="skill-container">
-      <div class="skill">
-        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z"/></svg>
-        Web Development</div>
-      <div class="skill">
-        <svg xmlns="http://www.w3.org/2000/svg" height="1.5em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 128C0 92.7 28.7 64 64 64H320c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128zM559.1 99.8c10.4 5.6 16.9 16.4 16.9 28.2V384c0 11.8-6.5 22.6-16.9 28.2s-23 5-32.9-1.6l-96-64L416 337.1V320 192 174.9l14.2-9.5 96-64c9.8-6.5 22.4-7.2 32.9-1.6z"/></svg>
-        Video Editing</div>
-      <div class="skill">
-        <i class="fa fa-mobile fa-2xl" aria-hidden="true"></i>
-        App Development</div>
-    </div>    
+ 
+    <div class="skil">
+      <h1>My Technical Skills</h1>
+      <li><h3>HTML</h3>
+        <span class="bar">
+        <span class="html"></span>
+      </span>
+      </li>
+      <li><h3>CSS</h3>
+        <span class="bar">
+        <span class="css"></span>
+      </span>
+      </li>
+      <li><h3>JS</h3>
+        <span class="bar">
+        <span class="js"></span>
+      </span>
+      </li>
+      <li><h3>REACT</h3>
+        <span class="bar">
+        <span class="react"></span>
+      </span>
+      </li>
+      <li><h3>NODEJS</h3>
+        <span class="bar">
+        <span class="node"></span>
+      </span>
+      </li>
+      <li><h3>EXPRESS</h3>
+        <span class="bar">
+        <span class="express"></span>
+      </span>
+      </li>
+    </div>
+    </div>
 </section>
-
+<!-- Contact Me Section -->
+<footer class="contact-me" id="contact">
+  <div>
+    <h2>Contact Me</h2>
+    <p>Feel free to get in touch with me. You can reach me through the following channels:</p>
+    <div class="contact-icons">
+      <a href="https://www.sharangyawali103@gmail.com"><i class="fas fa-envelope"></i></a>
+      <!-- <a href="tel:+1234567890"><i class="fas fa-phone"></i></a> -->
+      <a href="https://www.linkedin.com/in/sharan-gyawali-63b324278/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Sharangyawali" target="_blank"><i class="fab fa-github"></i></a>         
+      <a href="https://discordapp.com/users/sharan" target="_blank"><i class="fab fa-discord"></i></a>
+      <a href="https://www.instagram.com/sharangyawali/"><i class="fab fa-instagram" target="_blank"></i></a>
+    </div>
+  </div>
+</footer>
 </body>
 </html>
